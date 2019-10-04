@@ -1,0 +1,41 @@
+MON
+8:30-10:00
+10:10-11:50
+11:50-13:20
+14:00-15:30	python	Abramsky M.M.
+15:40-17:10	python	Abramsky M.M.
+
+TUE
+8:30-10:00	english	Abdrahmanova A.A.
+10:10-11:50
+11:50-13:20	probtheory lecture	Strebkov E.A.
+14:00-15:30	english	Abdrahmanova A.A.
+15:40-17:10	informatics	Hayrullin A.F.
+
+WED
+8:30-10:00	networking lecture	Maksutin S.V.
+10:10-11:50	db practice	Hayrullin A.F.
+11:50-13:20
+14:00-15:30
+15:40-17:10
+
+THU
+8:30-10:00	informatics	Hayrullin A.F.
+10:10-11:50
+11:50-13:20
+14:00-15:30
+15:40-17:10
+
+FRI
+8:30-10:00	networking	Maksutin S.V.
+10:10-11:50	english	Abdrahmanova A.A.
+11:50-13:20	probtheory	Kashtanova E.K.
+14:00-15:30	db lecture	Yakupov A.Sh.
+15:40-17:10
+
+SAT
+8:30-10:00
+10:10-11:50
+11:50-13:20
+14:00-15:30
+15:40-17:10

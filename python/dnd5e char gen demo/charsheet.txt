@@ -1,0 +1,59 @@
+ |====================================|
+/                                      \
+| DUNGEON & DRAGONS 5e Character Sheet  |
+\                                      /
+ |====================================|
+
+|================================
+| Name: _value
+| Race: _value
+| Class: _value
+| Level: _value
+|================================
+
+           MAIN STATS
+|================================
+| AC: _main_stats
+| Speed: _main_stats
+| Hit Dice: _main_stats
+| HP: _main_stats
+| Proficiency Bonus: _main_stats
+|================================
+
+          ABILITY SCORES
+|================================
+| STR: _ab_score (_mod)
+| DEX: _ab_score (_mod)
+| CON: _ab_score (_mod)
+| INT: _ab_score (_mod)
+| WIS: _ab_score (_mod)
+| CHA: _ab_score (_mod)
+|================================
+
+           SPELLCASTING
+|================================
+| Spellcasting Ability: _spellcast
+| Spell Save DC: 8 + _spellcast + Prof.Bonus
+| Spell Attack Mod.: Prof.Bonus + _spellcast
+|================================
+
+          PROFICIENCIES
+|================================
+_profs
+|================================
+
+          FEATURES & TRAITS
+|================================
+_traits
+|================================
+
+          EQUIPMENT
+|================================
+_equip
+|================================
+
+          SPELLS & CANTRIPS
+|================================
+| Cantrips: _spells
+| 1st Level spells: _spells, slots: _spells
+|================================

@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+  {% block content %}
+    {% if user.is_authenticated %}
+      <form name="PostForm" method="POST">{% csrf_token %}
+        <!-- <label for="when">Когда?</label> -->
+        <!-- <input type="date" name="when"> -->
+        <label for="title">Тема</label>
+        <p><input type="text" name="title" placeholder="О чем сегодня расскажешь?"></p>
+        <textarea name="content" placeholder="О чем сегодня расскажешь?"></textarea>
+        <div class="modal-footer">
+          <!-- <button type="button" class="btn btn-danger" data-dismiss="modal">Не сегодня...</button> -->
+          <button type="submit" class="btn btn-success" >Отправить пост!</button>
+        </div>
+      </form>
+
+    {% else %}
+      {% include "main_app/login_form.html" %}
+    {% endif %}
+      {% for p in posts %}
+        <p>
+          <h3>{{ p.title }}</h3>
+          <p>{{ p.content }}</p>
+          <h5><em>Дата: {{ p.date }}</em></h5>
+          <hr>
+      {% endfor %}
+  {% endblock %}
